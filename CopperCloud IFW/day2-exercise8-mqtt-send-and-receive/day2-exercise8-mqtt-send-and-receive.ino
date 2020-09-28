@@ -83,7 +83,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   payload[length] = '\0'; // terminate the incoming list of charas as a String
 
   // act on the incoming command
-  if(strcmp(((char *)payload), "on") == 0) {digitalWrite(outputPin,LOW);}
-  else if(strcmp(((char*)payload),"off")==0){digitalWrite(outputPin,HIGH);}
+  if(strcmp(((char *)payload), "on") == 0) {digitalWrite(outputPin,HIGH);}
+  else if(strcmp(((char*)payload),"off")==0){digitalWrite(outputPin,LOW);}
   else{Serial.println("Other message");}
 }
