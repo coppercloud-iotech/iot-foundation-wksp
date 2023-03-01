@@ -19,6 +19,7 @@ PubSubClient mqttClient(wifiClient);
 
 void setup() {
   Serial.begin(115200);
+  pinMode(D4, OUTPUT);
   setupWifi();       // setup WiFi connection
   setupMqtt();       // setup mqtt connection
 }
