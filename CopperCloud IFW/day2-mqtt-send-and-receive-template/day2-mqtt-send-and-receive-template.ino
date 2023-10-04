@@ -6,7 +6,7 @@
 // Update these with values suitable for your network.
 const char* ssid        = "your-wifi-network-name";
 const char* password    = "your-wifi-password";
-const char* mqtt_server = "3.214.158.175";
+const char* mqtt_server = "dev.coppercloud.in";
 int         mqtt_port   = 1883;
 
 WiFiClient wifiClient;
