@@ -7,7 +7,7 @@
 
 const char* ssid        = "iot-coppercloud";
 const char* password    = "coppercloud";
-const char* mqtt_server = "3.214.158.175";
+const char* mqtt_server = "dev.coppercloud.in";
 int         mqtt_port   = 1883;
 
 WiFiClient espClient;
